@@ -9,10 +9,8 @@ require('dotenv').config();
     fetchTrending2: `/trending/all/week?api_key=${api_key}&page=3`,
     fetchTrending3: `/trending/all/week?api_key=${api_key}&page=4`,
     fetchTrending4: `/trending/all/week?api_key=${api_key}&page=5`,
-    // fetchTrending5: `/trending/all/week?api_key=${API_KEY}&page=6`,
-    // fetchTrending6: `/trending/all/week?api_key=${API_KEY}&page=7`,
-    // fetchTrending7: `/trending/all/week?api_key=${API_KEY}&page=8`,
- 
+    search: `/search/movie?api_key=${api_key}&language=en-US&query=`,
+    popup: `/api_key=${api_key}&language=en-US/movie/`
 
 
   }
