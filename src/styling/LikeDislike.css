@@ -1,0 +1,22 @@
+.like-dislike-container {
+  display: flex;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+.like-title {
+  color: red;
+  font-size: 30px;
+}
+.dislike-title {
+  color: red;
+  font-size: 30px;
+}
+
+.thumbs-down {
+  cursor: pointer;
+  margin-right: 40px;
+}
+
+.thumbs-up {
+  cursor: pointer;
+}
